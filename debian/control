@@ -1,0 +1,28 @@
+Source: squibby-meta
+Section: metapackages
+Priority: optional
+Maintainer: Squibby Developers <squibbylinux@lists.launchpad.net>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+
+Package: squibby-desktop
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Squibby Linux Desktop system
+ This package depends on all of the packages in the Squibby desktop system.
+ Installing this package will include the default Squibby Plasma Desktop.
+ .
+ It is safe to remove this package if some of the desktop system packages are
+ not desired.
+
+Package: squibby-full
+Architecture: any
+Depends: ${germinate:Depends}, ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Full SquibbyLinux system
+ This package depends on all of the packages in the SquibbyLinux DVD for a
+ very complete system.  Installing this package will include much more than
+ the default SquibbyLinux KDE Desktop Installation.
+ .
+ It is safe to remove this package if some of the packages are not desired.
