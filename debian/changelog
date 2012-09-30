@@ -1,3 +1,9 @@
+squibby-meta (1.1) precise; urgency=low
+
+  * Simplify: switch to upstream "platform" seeds, only keep desktop metapackage
+
+ -- Pantelis Koukousoulas <pktoss@gmail.com>  Sun, 30 Sep 2012 21:16:38 +0300
+
 squibby-meta (1.0) precise; urgency=low
 
   * Initial release
